@@ -46,12 +46,57 @@
 
 }
 .content h5{
-  margin-left: 20px;
+
 }
 
 .actions-box Button{
      padding: 5px;
      font-size: 14px;
      margin-left: 10px;
-     margin-top: 10px;
+     /* margin-top: 10px; */
+}
+
+
+
+
+@media (max-width: 767px)  { 
+  .content h5{
+    font-size: 18px;
+  }
+  .actions-box Button{
+    padding: 3px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.content{
+
+ 
+
+}
+.form h6{
+  font-size: 14px;
+}
+.App h1{
+font-size: 24px;
+}
+}
+
+@media (max-width: 576px)  { 
+  .content h5{
+    font-size: 14px;
+  }
+  .actions-box Button{
+    padding: 2px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content{
+
+ width: 100%;
+
+}
+
 }
