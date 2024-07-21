@@ -83,8 +83,49 @@ font-size: 24px;
 }
 
 @media (max-width: 576px)  { 
+  .form{
+  width: 80%;
+ 
+}
+.todo{
+  width: 80%;
+}
   .content h5{
     font-size: 14px;
+  }
+
+  .actions-box{
+    width: 40%;
+  }
+  .actions-box Button{
+    padding: 2px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content{
+
+ width: 100%;
+
+}
+
+}
+
+@media (max-width: 459px)  { 
+  .form{
+  width: 90%;
+ 
+}
+.todo{
+  width: 90%;
+}
+  .content h5{
+    font-size: 14px;
+  }
+
+  .actions-box{
+    width: 50%;
   }
   .actions-box Button{
     padding: 2px;
